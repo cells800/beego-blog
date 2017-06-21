@@ -3,7 +3,8 @@ package admin
 import (
 	"fmt"
 	"github.com/astaxie/beego/orm"
-	"blog/models"
+        "igo9go/beego-blog/models"
+	//"blog/models"
 	"github.com/nfnt/resize"
 	"image/jpeg"
 	"io"

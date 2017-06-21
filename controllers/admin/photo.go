@@ -2,7 +2,8 @@ package admin
 
 import (
 	"fmt"
-	"blog/models"
+        "igo9go/beego-blog/models"
+	// "blog/models"
 	"os"
 	"strings"
 	"time"

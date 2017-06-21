@@ -2,7 +2,8 @@ package blog
 
 import (
 	"github.com/astaxie/beego"
-	"blog/models"
+        "igo9go/beego-blog/models"
+	//"blog/models"
 	"strconv"
 	"strings"
 )

@@ -2,7 +2,8 @@ package admin
 
 import (
 	"github.com/astaxie/beego/validation"
-	"blog/models"
+	// "blog/models"
+        "igo9go/beego-blog/models"
 	"strings"
 )
 

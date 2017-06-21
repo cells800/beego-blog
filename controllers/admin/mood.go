@@ -1,7 +1,8 @@
 package admin
 
 import (
-	"blog/models"
+        "igo9go/beego-blog/models"
+	// "blog/models"
 	"strings"
 	"time"
 )

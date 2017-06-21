@@ -2,8 +2,10 @@ package routers
 
 import (
 	"github.com/astaxie/beego"
-	"blog/controllers/admin"
-	"blog/controllers/blog"
+        "igo9go/beego-blog/controllers/admin"
+        "igo9go/beego-blog/controllers/blog"
+	//"blog/controllers/admin"
+	//"blog/controllers/blog"
 )
 
 func init() {

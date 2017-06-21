@@ -1,7 +1,8 @@
 package blog
 
 import (
-	"blog/models"
+        "igo9go/beego-blog/models"
+	//"blog/models"
 	"strconv"
 	"strings"
 )

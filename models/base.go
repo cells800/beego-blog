@@ -18,9 +18,10 @@ func init() {
 	dbpassword := beego.AppConfig.String("dbpassword")
 	dbname := beego.AppConfig.String("dbname")
 	if dbport == "" {
-		dbport = "3306"
+		dbport = "3606"
 	}
-	dburl := dbuser + ":" + dbpassword + "@tcp(" + dbhost + ":" + dbport + ")/" + dbname + "?charset=utf8"
+	 dburl := dbuser + ":" + dbpassword + "@tcp(" + dbhost + ":" + dbport + ")/" + dbname + "?charset=utf8"
+	// dburl := dbuser + ":" + dbpassword + "@tcp(" + "localhost" + ":" + dbport + ")/" + dbname + "?charset=utf8"
 
 	//注册数据库类型
 	orm.RegisterDriver("mysql", orm.DRMySQL)
